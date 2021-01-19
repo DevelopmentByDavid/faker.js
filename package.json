@@ -1,7 +1,7 @@
 {
   "name": "faker",
   "description": "Generate massive amounts of fake contextual data",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "contributors": [
     "Marak Squires <marak.squires@gmail.com>"
   ],
@@ -17,6 +17,14 @@
     "test": "node_modules/.bin/mocha test/*.*.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
+  "files": [
+    "/index.js",
+    "/lib",
+    "/dist",
+    "/vendor",
+    "/locale",
+    "/MIT-LICENSE"
+  ],
   "nyc": {
     "all": false,
     "include": [
